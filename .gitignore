@@ -1,0 +1,12 @@
+# Build output: never publish binaries, people should compile from source.
+*.exe
+*.dll
+*.pdb
+*.ico
+
+# Logs and local overrides can contain your own paths.
+*.log
+claude-path.txt
+
+# Never commit a Claude profile folder: it holds a signed-in session.
+ClaudeProfile-*/
